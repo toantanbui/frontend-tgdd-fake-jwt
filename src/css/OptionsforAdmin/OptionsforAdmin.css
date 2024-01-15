@@ -1,0 +1,67 @@
+.optionsforAdmin {
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+  height: 40px;
+  width: 100%;
+  display: flex; }
+  .optionsforAdmin .optionsforAdmin-users {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 100%;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer; }
+    .optionsforAdmin .optionsforAdmin-users:hover {
+      opacity: 0.3; }
+    .optionsforAdmin .optionsforAdmin-users:active {
+      background-color: green; }
+    .optionsforAdmin .optionsforAdmin-users .edit-span {
+      position: relative;
+      top: 13%;
+      left: 25%;
+      color: red;
+      font-size: 20px;
+      font-weight: 600; }
+  .optionsforAdmin .optionsforAdmin-orders {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 100%;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer; }
+    .optionsforAdmin .optionsforAdmin-orders:hover {
+      opacity: 0.3; }
+    .optionsforAdmin .optionsforAdmin-orders:active {
+      background-color: green; }
+    .optionsforAdmin .optionsforAdmin-orders .edit-span {
+      position: relative;
+      top: 13%;
+      left: 25%;
+      color: red;
+      font-size: 20px;
+      font-weight: 600; }
+  .optionsforAdmin .optionsforAdmin-products {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 100%;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer; }
+    .optionsforAdmin .optionsforAdmin-products:hover {
+      opacity: 0.3; }
+    .optionsforAdmin .optionsforAdmin-products:active {
+      background-color: green; }
+    .optionsforAdmin .optionsforAdmin-products .edit-span {
+      position: relative;
+      top: 13%;
+      left: 25%;
+      color: red;
+      font-size: 20px;
+      font-weight: 600; }

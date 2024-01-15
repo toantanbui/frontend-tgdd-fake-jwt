@@ -1,0 +1,157 @@
+.HomeHeaderabc {
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 100%;
+  background-color: #ffd400; }
+  .HomeHeaderabc .up {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 30%;
+    display: flex;
+    justify-content: right; }
+    .HomeHeaderabc .up .up-one {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 100%;
+      width: 20%;
+      background-color: #ffbc06;
+      border-radius: 6px;
+      cursor: pointer; }
+      .HomeHeaderabc .up .up-one:hover {
+        opacity: 0.3; }
+      .HomeHeaderabc .up .up-one:active {
+        background-color: green; }
+    .HomeHeaderabc .up .up-two {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 100%;
+      width: 20%;
+      background-color: #ffbc06;
+      border-radius: 6px;
+      margin-left: 10px;
+      cursor: pointer; }
+      .HomeHeaderabc .up .up-two:hover {
+        opacity: 0.3; }
+      .HomeHeaderabc .up .up-two:active {
+        background-color: green; }
+  .HomeHeaderabc .center {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 40%;
+    display: flex;
+    font-size: 14px;
+    color: #333; }
+    .HomeHeaderabc .center .center-title {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 100%;
+      width: 200px;
+      margin-left: 0px;
+      margin-right: 0px;
+      border-radius: 6px; }
+      .HomeHeaderabc .center .center-title:hover {
+        opacity: 0.3; }
+      .HomeHeaderabc .center .center-title:active {
+        background-color: green; }
+      .HomeHeaderabc .center .center-title .center-title-title {
+        font-size: 20px;
+        position: relative;
+        top: 30%;
+        margin-left: 0px; }
+    .HomeHeaderabc .center .center-address {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 100%;
+      width: 200px;
+      margin-left: 5px;
+      margin-right: 5px;
+      background-color: #ffbc06;
+      border-radius: 6px;
+      cursor: pointer; }
+      .HomeHeaderabc .center .center-address span {
+        font-size: 20px;
+        position: relative;
+        top: 30%;
+        left: 20%; }
+    .HomeHeaderabc .center .center-look-at {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 100%;
+      width: 200px;
+      margin-left: 5px;
+      margin-right: 5px;
+      background-color: #ffbc06;
+      border-radius: 6px;
+      cursor: pointer; }
+      .HomeHeaderabc .center .center-look-at span {
+        font-size: 20px;
+        position: relative;
+        top: 30%;
+        left: 20%; }
+    .HomeHeaderabc .center .center-user {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 100%;
+      width: 150px;
+      margin-left: 5px;
+      margin-right: 5px;
+      background-color: #ffbc06;
+      border-radius: 6px;
+      cursor: pointer; }
+      .HomeHeaderabc .center .center-user:hover {
+        opacity: 0.3; }
+      .HomeHeaderabc .center .center-user:active {
+        background-color: green; }
+      .HomeHeaderabc .center .center-user span {
+        font-size: 20px;
+        position: relative;
+        top: 30%;
+        left: 20%; }
+    .HomeHeaderabc .center .center-cart {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 100%;
+      width: 150px;
+      margin-left: 5px;
+      margin-right: 5px;
+      background-color: #ffbc06;
+      border-radius: 6px;
+      cursor: pointer; }
+      .HomeHeaderabc .center .center-cart span {
+        font-size: 20px;
+        position: relative;
+        top: 30%;
+        left: 20%; }
+    .HomeHeaderabc .center .center-hi {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 100%;
+      width: 150px;
+      margin-left: 5px;
+      margin-right: 0px;
+      background-color: #ffbc06;
+      border-radius: 6px;
+      cursor: pointer; }
+      .HomeHeaderabc .center .center-hi:hover {
+        opacity: 0.3; }
+      .HomeHeaderabc .center .center-hi:active {
+        background-color: green; }
+  .HomeHeaderabc .down {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 30%; }

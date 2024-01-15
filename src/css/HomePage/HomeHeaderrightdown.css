@@ -1,0 +1,10 @@
+.infor {
+  border-style: solid;
+  border-color: #ff0062;
+  border-width: 1px;
+  height: 100%; }
+  .infor span {
+    border-style: solid;
+    border-color: #ff0062;
+    border-width: 1px;
+    font-size: 15px; }

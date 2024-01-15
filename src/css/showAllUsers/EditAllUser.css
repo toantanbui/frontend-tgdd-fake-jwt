@@ -1,0 +1,26 @@
+.edit .edit-header {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between; }
+
+.edit .edit-all-body {
+  margin: 10px; }
+  .edit .edit-all-body .edit-body {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap; }
+    .edit .edit-all-body .edit-body .all {
+      padding: 8px;
+      margin: 5px;
+      display: flex;
+      flex-direction: column; }
+  .edit .edit-all-body .edit-button {
+    margin-left: 30px !important;
+    margin-bottom: 50px !important; }
+    .edit .edit-all-body .edit-button button {
+      cursor: pointer;
+      padding-right: 5px;
+      padding-left: 5px; }
+  .edit .edit-all-body .edit-header {
+    padding: 5px;
+    margin: 8px; }

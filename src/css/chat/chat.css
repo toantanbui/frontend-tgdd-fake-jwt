@@ -1,0 +1,107 @@
+.background {
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+  height: 1000px;
+  width: 40%;
+  position: relative;
+  left: 30%; }
+  .background .chat {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5%; }
+    .background .chat .chat-header {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 10%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+      .background .chat .chat-header .chat-header-back-home {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 100%;
+        width: 20%; }
+      .background .chat .chat-header .chat-header-name {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 100%;
+        width: 50%; }
+    .background .chat .chat-content {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 80%;
+      width: 100%; }
+      .background .chat .chat-content .chat-content-content {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 90%;
+        width: 85%;
+        position: relative;
+        top: 5%;
+        left: 1%;
+        border-radius: 20px;
+        overflow-y: scroll; }
+    .background .chat .chat-send {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 10%;
+      width: 100%;
+      display: flex; }
+      .background .chat .chat-send .chat-send-input {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 100%;
+        width: 85%;
+        border-radius: 30px;
+        margin-left: 1%; }
+        .background .chat .chat-send .chat-send-input .chat-send-input-input {
+          width: 95%;
+          height: 50%;
+          position: relative;
+          top: 18%;
+          left: 1%;
+          font-size: 20px; }
+      .background .chat .chat-send .chat-send-message {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 100%;
+        width: 10%;
+        margin-left: 15px;
+        border-radius: 40px;
+        cursor: pointer; }
+        .background .chat .chat-send .chat-send-message:hover {
+          opacity: 0.5; }
+        .background .chat .chat-send .chat-send-message:active {
+          background-color: green; }
+
+svg.svg-inline--fa.fa-arrow-left.fa-w-14 {
+  width: 60px;
+  height: 50px;
+  color: blue;
+  cursor: pointer; }
+  svg.svg-inline--fa.fa-arrow-left.fa-w-14:hover {
+    opacity: 0.5; }
+  svg.svg-inline--fa.fa-arrow-left.fa-w-14:active {
+    background-color: green; }
+
+svg.svg-inline--fa.fa-paper-plane.fa-w-16 {
+  width: 50px;
+  height: 30px;
+  position: relative;
+  top: 18%;
+  color: blue; }

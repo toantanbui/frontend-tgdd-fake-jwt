@@ -1,0 +1,129 @@
+.userdk {
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+  height: 1500px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 25%; }
+  .userdk .userdk-up {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5%; }
+    .userdk .userdk-up .userdk-up-text-title {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 90px;
+      width: 100%; }
+      .userdk .userdk-up .userdk-up-text-title .userdk-up-text-title-span {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        position: relative;
+        top: 25%;
+        left: 12%;
+        font-size: 30px;
+        font-weight: 600;
+        color: red; }
+    .userdk .userdk-up .userdk-up-text {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 90px;
+      width: 100%;
+      display: flex; }
+      .userdk .userdk-up .userdk-up-text .userdk-up-text-aa {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 100%;
+        width: 30%; }
+        .userdk .userdk-up .userdk-up-text .userdk-up-text-aa .userdk-up-text-aa-span {
+          position: relative;
+          top: 30%;
+          left: 20%;
+          font-size: 25px;
+          font-weight: 500;
+          color: red; }
+      .userdk .userdk-up .userdk-up-text .userdk-up-text-ab {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 100%;
+        width: 70%; }
+        .userdk .userdk-up .userdk-up-text .userdk-up-text-ab .userdk-up-text-ab-input {
+          position: relative;
+          top: 35%;
+          left: 10%;
+          width: 300px;
+          height: 25px;
+          background-color: #f1f3f4;
+          font-size: 20px; }
+    .userdk .userdk-up .userdk-up-text-foot-table {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      height: 150px;
+      width: 100%;
+      display: flex; }
+      .userdk .userdk-up .userdk-up-text-foot-table .userdk-up-text-foot-table-right {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 100%;
+        width: 50%; }
+        .userdk .userdk-up .userdk-up-text-foot-table .userdk-up-text-foot-table-right .userdk-up-text-foot-table-right-text {
+          border-style: solid;
+          border-color: red;
+          border-width: 1px;
+          height: 60%;
+          width: 60%;
+          position: relative;
+          top: 20%;
+          left: 20%;
+          border-radius: 10px;
+          background-color: red;
+          cursor: pointer; }
+          .userdk .userdk-up .userdk-up-text-foot-table .userdk-up-text-foot-table-right .userdk-up-text-foot-table-right-text:hover {
+            background-color: red; }
+          .userdk .userdk-up .userdk-up-text-foot-table .userdk-up-text-foot-table-right .userdk-up-text-foot-table-right-text:active {
+            background-color: green; }
+      .userdk .userdk-up .userdk-up-text-foot-table .userdk-up-text-foot-table-left {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 100%;
+        width: 50%; }
+        .userdk .userdk-up .userdk-up-text-foot-table .userdk-up-text-foot-table-left .userdk-up-text-foot-table-left-text {
+          border-style: solid;
+          border-color: red;
+          border-width: 1px;
+          height: 60%;
+          width: 60%;
+          position: relative;
+          top: 20%;
+          left: 20%;
+          border-radius: 10px;
+          background-color: red;
+          cursor: pointer; }
+          .userdk .userdk-up .userdk-up-text-foot-table .userdk-up-text-foot-table-left .userdk-up-text-foot-table-left-text:hover {
+            background-color: red; }
+          .userdk .userdk-up .userdk-up-text-foot-table .userdk-up-text-foot-table-left .userdk-up-text-foot-table-left-text:active {
+            background-color: green; }
+  .userdk .userdk-down {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 100px;
+    width: 100%;
+    color: red;
+    font-weight: 600; }

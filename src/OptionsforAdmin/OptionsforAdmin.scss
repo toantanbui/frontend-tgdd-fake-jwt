@@ -1,0 +1,99 @@
+.optionsforAdmin {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+
+    .optionsforAdmin-users {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 100%;
+        width: 20%;
+        border-radius: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.3;
+        }
+
+        &:active {
+            background-color: green;
+        }
+
+        .edit-span {
+            position: relative;
+            top: 13%;
+            left: 25%;
+            color: red;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+    }
+
+    .optionsforAdmin-orders {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 100%;
+        width: 20%;
+        border-radius: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+
+
+        &:hover {
+            opacity: 0.3;
+        }
+
+        &:active {
+            background-color: green;
+        }
+
+        .edit-span {
+            position: relative;
+            top: 13%;
+            left: 25%;
+            color: red;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+
+    }
+
+    .optionsforAdmin-products {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 100%;
+        width: 20%;
+        border-radius: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+
+
+        &:hover {
+            opacity: 0.3;
+        }
+
+        &:active {
+            background-color: green;
+        }
+
+        .edit-span {
+            position: relative;
+            top: 13%;
+            left: 25%;
+            color: red;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+    }
+
+}

@@ -1,0 +1,28 @@
+.confir {
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+  height: 1000px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 10%; }
+  .confir .confir-up {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 20%;
+    width: 100%; }
+  .confir .confir-down {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 80%;
+    width: 100%; }
+    .confir .confir-down .confir-down-text {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      color: red;
+      font-weight: 600; }

@@ -1,0 +1,112 @@
+.HomePage {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+
+
+    .HomeHeader {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        width: 100%;
+        height: 10%;
+        z-index: 1;
+        display: flex;
+
+
+    }
+
+    .HomeMenu {
+        height: 5%;
+    }
+
+    .HomeContent {
+        border-style: solid;
+        border-color: blue;
+        border-width: 1px;
+        width: 100%;
+        height: 95%;
+        display: flex;
+
+        z-index: 0;
+
+
+
+        .Ads {
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+            width: 10%;
+
+        }
+
+        .Content {
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+
+            .Content-a {
+                border-style: solid;
+                border-color: red;
+                border-width: 1px;
+                width: 100%;
+                height: 5%;
+
+            }
+
+            .Content-b {
+                border-style: solid;
+                border-color: red;
+                border-width: 1px;
+                width: 100%;
+                height: 80%;
+
+                display: flex;
+                flex-direction: column;
+
+                .content-b-a {
+                    border-style: solid;
+                    border-color: red;
+                    border-width: 1px;
+                    height: 39%;
+                }
+
+                .content-b-b {
+                    border-style: solid;
+                    border-color: red;
+                    border-width: 1px;
+                    height: 39%;
+                }
+
+                .content-b-c {
+                    border-style: solid;
+                    border-color: red;
+                    border-width: 1px;
+                    height: 39%;
+                }
+
+            }
+
+            .Content-c {
+                border-style: solid;
+                border-color: red;
+                border-width: 1px;
+                width: 100%;
+                height: 10%;
+
+            }
+
+        }
+    }
+
+
+}

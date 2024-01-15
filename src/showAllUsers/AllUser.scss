@@ -1,0 +1,36 @@
+.table {
+    border: 1px solid black;
+    padding: 8px;
+    width: 100%;
+
+    tr {
+        border: 1px solid black;
+        padding: 8px;
+
+        th {
+            border: 1px solid black;
+            padding: 8px;
+            margin-left: 10px;
+            margin-right: 10px;
+
+
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+
+            button {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+        }
+
+
+    }
+
+
+
+
+}

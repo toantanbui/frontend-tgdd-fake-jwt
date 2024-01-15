@@ -1,0 +1,38 @@
+.orderlist {
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .orderlist .orderlist-up {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    height: 50px;
+    width: 100%; }
+    .orderlist .orderlist-up .orderlist-up-span {
+      border-style: solid;
+      border-color: red;
+      border-width: 1px;
+      color: red;
+      font-weight: 600;
+      font-size: 25px; }
+  .orderlist .table-orderlist {
+    border: 1px solid black;
+    padding: 8px;
+    width: 100%; }
+    .orderlist .table-orderlist tr {
+      border: 1px solid black;
+      padding: 8px; }
+      .orderlist .table-orderlist tr th {
+        border: 1px solid black;
+        padding: 8px;
+        margin-left: 10px;
+        margin-right: 10px; }
+      .orderlist .table-orderlist tr td {
+        border: 1px solid black;
+        padding: 8px; }
+        .orderlist .table-orderlist tr td button {
+          margin-left: 10px;
+          margin-right: 10px; }

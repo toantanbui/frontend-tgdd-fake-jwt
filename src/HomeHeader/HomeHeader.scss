@@ -1,0 +1,228 @@
+.HomeHeaderabc {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+
+    background-color: #ffd400;
+
+    .up {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 30%;
+        display: flex;
+        justify-content: right;
+
+        .up-one {
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+            height: 100%;
+            width: 20%;
+            background-color: #ffbc06;
+            border-radius: 6px;
+
+            cursor: pointer;
+
+
+            &:hover {
+                opacity: 0.3;
+            }
+
+            &:active {
+                background-color: green;
+            }
+
+        }
+
+        .up-two {
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+            height: 100%;
+            width: 20%;
+            background-color: #ffbc06;
+            border-radius: 6px;
+            margin-left: 10px;
+
+            cursor: pointer;
+
+
+            &:hover {
+                opacity: 0.3;
+            }
+
+            &:active {
+                background-color: green;
+            }
+
+        }
+
+
+    }
+
+    .center {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 40%;
+        display: flex;
+        font-size: 14px;
+        color: #333;
+
+        .center-title {
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+            height: 100%;
+            width: 200px;
+            margin-left: 0px;
+            margin-right: 0px;
+            border-radius: 6px;
+
+
+            &:hover {
+                opacity: 0.3;
+            }
+
+            &:active {
+                background-color: green;
+            }
+
+            .center-title-title {
+                font-size: 20px;
+                position: relative;
+                top: 30%;
+                margin-left: 0px;
+            }
+
+
+        }
+
+        .center-address {
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+            height: 100%;
+            width: 200px;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: #ffbc06;
+            border-radius: 6px;
+            cursor: pointer;
+
+            span {
+                font-size: 20px;
+                position: relative;
+                top: 30%;
+                left: 20%;
+            }
+        }
+
+        .center-look-at {
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+            height: 100%;
+            width: 200px;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: #ffbc06;
+            border-radius: 6px;
+            cursor: pointer;
+
+            span {
+                font-size: 20px;
+                position: relative;
+                top: 30%;
+                left: 20%;
+            }
+        }
+
+        .center-user {
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+            height: 100%;
+            width: 150px;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: #ffbc06;
+            border-radius: 6px;
+            cursor: pointer;
+
+
+            &:hover {
+                opacity: 0.3;
+            }
+
+            &:active {
+                background-color: green;
+            }
+
+            span {
+                font-size: 20px;
+                position: relative;
+                top: 30%;
+                left: 20%;
+            }
+        }
+
+        .center-cart {
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+            height: 100%;
+            width: 150px;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: #ffbc06;
+            border-radius: 6px;
+            cursor: pointer;
+
+            span {
+                font-size: 20px;
+                position: relative;
+                top: 30%;
+                left: 20%;
+            }
+        }
+
+        .center-hi {
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+            height: 100%;
+            width: 150px;
+            margin-left: 5px;
+            margin-right: 0px;
+            background-color: #ffbc06;
+            border-radius: 6px;
+            cursor: pointer;
+
+
+            &:hover {
+                opacity: 0.3;
+            }
+
+            &:active {
+                background-color: green;
+            }
+
+
+        }
+
+    }
+
+    .down {
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+        height: 30%;
+    }
+
+}

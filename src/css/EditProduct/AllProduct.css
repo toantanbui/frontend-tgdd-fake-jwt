@@ -1,0 +1,21 @@
+.table {
+  border: 1px solid black;
+  padding: 8px;
+  width: 100%; }
+  .table tr {
+    border: 1px solid black;
+    padding: 8px; }
+    .table tr th {
+      border: 1px solid black;
+      padding: 8px;
+      margin-left: 10px;
+      margin-right: 10px; }
+    .table tr .this-td {
+      border: 1px solid black;
+      padding: 8px;
+      display: flex;
+      justify-content: center; }
+      .table tr .this-td button {
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer; }

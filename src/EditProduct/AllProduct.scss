@@ -1,0 +1,39 @@
+.table {
+    border: 1px solid black;
+    padding: 8px;
+    width: 100%;
+
+    tr {
+        border: 1px solid black;
+        padding: 8px;
+
+        th {
+            border: 1px solid black;
+            padding: 8px;
+            margin-left: 10px;
+            margin-right: 10px;
+
+
+        }
+
+        .this-td {
+            border: 1px solid black;
+            padding: 8px;
+            display: flex;
+            justify-content: center;
+
+            button {
+                margin-left: 10px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+
+        }
+
+
+    }
+
+
+
+
+}
